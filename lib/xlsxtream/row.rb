@@ -19,6 +19,8 @@ module Xlsxtream
         xml << case value
         when Numeric
           %'<c r="#{cid}" t="n"><v>#{value}</v></c>'
+        when TrueClass, FalseClass
+          %'<c r="#{cid}" t="b"><v>#{value ? 1 : 0}</v></c>'
         when Date, Time, DateTime
           style = value.is_a?(Date) ? 1 : 2
           %'<c r="#{cid}" s="#{style}"><v>#{time_to_oa_date value}</v></c>'
