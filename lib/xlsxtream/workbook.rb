@@ -96,6 +96,7 @@ module Xlsxtream
           <numFmts count="2">
             <numFmt numFmtId="164" formatCode="yyyy\\-mm\\-dd"/>
             <numFmt numFmtId="165" formatCode="yyyy\\-mm\\-dd hh:mm:ss"/>
+            <numFmt numFmtId="166" formatCode="hh:mm:ss"/>
           </numFmts>
           <fonts count="1">
             <font>
@@ -122,6 +123,7 @@ module Xlsxtream
             <xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0"/>
             <xf numFmtId="164" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1"/>
             <xf numFmtId="165" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1"/>
+            <xf numFmtId="166" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1"/>
           </cellXfs>
           <cellStyles count="1">
             <cellStyle name="Normal" xfId="0" builtinId="0"/>
